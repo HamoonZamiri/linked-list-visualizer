@@ -44,6 +44,7 @@ function App() {
             return(
               <div className="node-items-container">
                 <div className="node-item">{item}</div>
+                <div className="vertical-line"/>
               </div>
             );
         })
