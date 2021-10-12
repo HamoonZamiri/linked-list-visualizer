@@ -53,8 +53,8 @@ function App() {
       {
         list.map(item => {
             return(
-              <div>
-                {item}
+              <div className="node-items-container">
+                <div className="node-item">{item}</div>
               </div>
             );
         })
