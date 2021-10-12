@@ -9,7 +9,7 @@ function App() {
           Value:
           <input type="text" name="value" />
         </label>
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Add Node" />
       </form>
 
       <form>
@@ -17,8 +17,10 @@ function App() {
           id:
           <input type="text" name="id" />
         </label>
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Delete Node" />
       </form>
+
+      
     </div>
   );
 }
