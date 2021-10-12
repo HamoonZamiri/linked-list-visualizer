@@ -6,6 +6,15 @@ function App() {
   const [value, setValue] = useState('')
   const [id, setId] = useState('')
 
+  function removeItem(arr, index){
+    var newArr = [];
+    for (var i = 0; i < arr.length; i++){
+      if (i !== index){
+        newArr.push(arr[i]);
+      }
+    }
+  }
+  
   const createNode = (e) => {
     e.preventDefault();
     list.push(value);
