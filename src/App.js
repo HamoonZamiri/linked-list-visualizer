@@ -1,6 +1,9 @@
 import './App.css';
+import React, { useState, useEffect } from 'react';
 
 function App() {
+  const [list, setList] = useState([]);
+
   return (
     <div className="App">
       <h1>Linked List Visualizer</h1>
@@ -20,7 +23,6 @@ function App() {
         <input type="submit" value="Delete Node" />
       </form>
 
-      
     </div>
   );
 }
