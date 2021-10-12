@@ -23,6 +23,15 @@ function App() {
         <input type="submit" value="Delete Node" />
       </form>
 
+      {
+        list.map(item => {
+            return(
+              <div>
+                {item}
+              </div>
+            );
+        })
+      }
     </div>
   );
 }
