@@ -42,7 +42,7 @@ function App() {
       {
         list.map(item => {
             return(
-              <div>
+              <div className="node-item">
                 {item}
               </div>
             );
